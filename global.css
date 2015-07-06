@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    background-color: #fefefe;
+}
+
+.nav {
+    background-color: #000000;
+    height: 75px; 
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.containers {
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 15px 0 0;
+    width: 1100px;
+    height: 1000px;
+}
+
+.nav-wrapper{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    background-color: #cb0000;
+}
+
+.nav-top-li {
+    float: left;
+    text-decoration: none;
+}
