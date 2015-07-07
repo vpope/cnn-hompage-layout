@@ -28,6 +28,7 @@ body {
     padding: 15px 0 0;
     width: 1100px;
     height: 700px;
+    overflow: hidden;
 }
 
 .nav-wrapper{
@@ -44,6 +45,7 @@ body {
 }
 
 .nav-top {
+    float: left;
     padding-left: 15px;
     height: 40px;
     color: #d9d9d9;
@@ -64,6 +66,7 @@ body {
 }
 
 .watch-tv {
+    margin-top: -35px;
     list-style-type: none;
     float: right;
     height: 35px;
@@ -97,6 +100,14 @@ body {
     padding-right: 15px;
 }
 
+.nav-item-right {
+    font-size: 15px;
+    font-weight: lighter;
+    display: inline;
+    float: right;
+    color: #a6a6a6;
+}
+
 .nav-item-bot {
     display: inline;
     padding-right: 20px;
@@ -118,6 +129,94 @@ body {
     margin-top: 0px;
 }
 
-.money {
+.section-money {
     background-color: #2a84b1;
+    color: #ffffff;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.down {
+    height: 10px;
+}
+
+.column-wrapper {
+    overflow: hidden;
+}
+
+.nav-top-right {
+    display: inline;
+}
+
+.edition {
+    padding-right: 15px;
+}
+
+.search-input {
+    line-height: 1;
+    padding: 0 10px;
+    border: 0;
+    background: 0 0;
+    color: #a6a6a6;
+}
+
+.search-field {
+    width: 200px;
+    background-color: #252525;
+}
+
+.list-left {
+    width: 300px;
+    float: left;
+}
+
+.headline,
+.article {
+    list-style-type: none;
+}
+
+.headline {
+    background-color: #f2f2f2;
+    color: #404040;
+    font-size: 1rem;
+    font-weight: bold;
+    font-size: 15px;
+    height: 26px;
+    padding: 7px;
+    line-height: 2.2;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.article {
+    font-weight: lighter;
+    color: #252525;
+    background-color: #fdfdfd;
+    height: 34px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-left: 7px;
+    line-height: 231%;}
+
+.list-left {
+    margin-bottom: 10px;
+}
+
+.list-left-ul {
+    margin-top: 0px;
+    padding-left: 0px
+}
+
+.article:hover {
+    color: #ca0612;
+}
+
+.article:last-child {
+    border-bottom: 0px;
+}
+
+.content-right {
+    float: right;
 }
