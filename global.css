@@ -301,7 +301,6 @@ body {
 }
 
 .headline3 {
-    float: right;
     width: 286px;
     list-style-type: none;
     background-color: #f2f2f2;
@@ -325,11 +324,33 @@ body {
 }
 
 .article3 {
+    list-style-type: none;
     font-weight: lighter;
     color: #252525;
     background-color: #fdfdfd;
-    height: 34px;
     border-bottom: 1px solid #d9d9d9;
     padding-left: 7px;
     line-height: 231%;
+}
+
+.right-list-ul {
+    float: right;
+    margin-top: 0px;
+}
+
+.right3 {
+    overflow: hidden;
+}
+
+.image-right-3 {
+    list-style-type: none;
+}
+
+.image-right-3 img {
+    width: 300px;
+}
+
+.article3:hover {
+    cursor: pointer;
+    color: #ca0612;
 }
