@@ -354,3 +354,27 @@ body {
     cursor: pointer;
     color: #ca0612;
 }
+
+.content4container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content4left,
+.content4mid,
+.content4right {
+    width: 33.3334%;
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.content4left,
+.content4mid {
+    padding-right: 10px;
+}
+
+.content4right, 
+.content4mid {
+    padding-left: 10px;
+}
