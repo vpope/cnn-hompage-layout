@@ -178,7 +178,8 @@ body {
 }
 
 .headline,
-.article {
+.article,
+.image4 {
     list-style-type: none;
 }
 
@@ -534,6 +535,10 @@ body {
     -moz-box-sizing: border-box;
 }
 
+.content6right {
+    padding-left: 40px;
+}
+
 .content6left,
 .content6mid {
     padding-right: 15px;
@@ -568,4 +573,49 @@ body {
 
 .image6 {
     padding-top: 10px;
+}
+
+.image4 img {
+    padding-top: 0px;
+}
+
+.img4 img {
+    width: 346px;
+    height: 268px;
+}
+
+.headline7 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.content7 {
+    overflow: hidden;
+}
+
+.box7 {
+    box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    float: left;
+    width: 25%;
+}
+
+.box7left {
+    padding-right: 20px;
+}
+
+.box7right {
+    padding-left: 20px
+}
+
+.box7mid1 {
+    padding-right: 10px;
+}
+
+.box7mid2 {
+    padding-left: 10px;
+}
+
+.box7 img {
+    width: 100%;
 }
