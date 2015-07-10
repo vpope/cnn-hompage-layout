@@ -201,7 +201,6 @@ body {
     color: #252525;
     background-color: #fdfdfd;
     height: 34px;
-    border-bottom: 1px solid #d9d9d9;
     padding-left: 7px;
     line-height: 231%;}
 
@@ -618,4 +617,103 @@ body {
 
 .box7 img {
     width: 100%;
+}
+
+.box7left img {
+    height: 199px;
+}
+
+.box7right img {
+    height: 199px;
+}
+
+.content8 {
+    overflow: hidden;
+}
+
+.content8left,
+.content8mid,
+.content8right {
+    box-sizing: border-box;
+    -moz-boz-sizing: border-box;
+    float: left;
+    width: 33%;
+}
+
+.second-headline {
+    padding-top: 25px;
+    font-weight: lighter;
+    font-size: 23px;
+    color: #262626;
+}
+
+.ul-8 {
+    padding-left: 0px;
+}
+
+.content-9 {
+    background-color: #1a1a1a;
+}
+
+.blackheadline {
+    color: #fefefe;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.content-9-container {
+    width: 1100px;
+    margin: 0 auto;
+        overflow: hidden;
+}
+
+.content9left,
+.content9right {
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.content9left {
+    width: 60%;
+}
+
+.content9right {
+    width: 40%;
+}
+
+.article9 {
+    list-style-type: none;
+    font-weight: lighter;
+    color: #fefefe;
+    border-bottom: 1px solid #404040;
+    padding-left: 7px;
+    line-height: 231%;
+}
+
+.content9ad img {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 728px;
+    display: block;
+}
+
+.footer-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.weather-hl {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.weather-icon {
+    width: 100px;
+}
+
+.weather {
+    padding-top: 30px;
 }
